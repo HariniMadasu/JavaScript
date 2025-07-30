@@ -1,5 +1,5 @@
-let xp = 0;
-let health = 100;
+let xp = 1;
+let health = 120;
 let gold = 60;
 let currentWeaponIndex = 0;
 let fighting;
