@@ -1,14 +1,21 @@
 const darkColorsArr = [
-  "#2C3E50",
-  "#34495E",
-  "#2C2C2C",
-  "#616A6B",
-  "#4A235A",
-  "#2F4F4F",
-  "#0E4B5A",
-  "#36454F",
-  "#2C3E50",
-  "#800020",
+    "#eb4034",
+    "#8a4b27",
+    "#ebb515",
+    "#8742f5",
+    "#51e09d",
+    "#b87874",
+    "#717826",
+    "#2e4e69",
+    "#754150",
+    "#95e612",
+    "#2d7372",
+    "#393f70",
+    "#615758",
+    "#53b848",
+    "#ce42f5",
+    "#cc3b4c"
+
 ];
 
 function getRandomIndex() {
@@ -27,4 +34,4 @@ function changeBackgroundColor() {
 }
 const btn = document.querySelector("#btn");
 
-btn.onclick = changeBackgroundColor();
+btn.onclick = changeBackgroundColor;
